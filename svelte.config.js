@@ -1,5 +1,12 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 
-const config = { kit: { adapter: adapter() } };
-
-export default config;
+export default {
+    kit: {
+        adapter: adapter({
+            fallback: '200.html'
+        }),
+        paths: {
+            base: process.env.NODE_ENV === 'production' ? '/svelte-PokePage' : ''
+        }
+    }
+}
