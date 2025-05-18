@@ -12,7 +12,7 @@ export const load = async ({ fetch }) => {
         let pokemons = [];
         for (const response of responses) {
             if (!response.ok) {
-                throw error(response.status, `Feil ved henting av data: ${response.statusText}`);
+                error(response.status, `Feil ved henting av data: ${response.statusText}`);
             }
             pokemons.push(await response.json());
         }

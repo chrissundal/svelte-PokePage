@@ -4,7 +4,7 @@ export const load = async ({ fetch }) => {
     try {
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=151&offset=0`);
         if (!response.ok) {
-            throw error(response.status, `Feil ved henting av data: ${response.statusText}`);
+            error(response.status, `Feil ved henting av data: ${response.statusText}`);
         }
         const data = await response.json();
         

@@ -11,7 +11,7 @@
     const logout = async () => {
         await supabase.auth.signOut();
         loginOpen.set(false);
-        goto('/')
+        await goto('/')
     }
     const goHome = () => {
         goto('/')

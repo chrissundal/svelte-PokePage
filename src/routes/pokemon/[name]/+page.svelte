@@ -36,10 +36,10 @@ $: pokemon = data.pokemon;
                         <ul class="grid grid-cols-2 gap-3">
                             {#each pokemon.stats as stat}
                                 <div>
-                                    <li class="flex justify-between border border-neutral-700 p-3 rounded">
+                                    <div class="flex justify-between border border-neutral-700 p-3 rounded">
                                         <span class="capitalize">{stat.stat.name}:</span>
                                         <span class="font-bold">{stat.base_stat}</span>
-                                    </li>
+                                    </div>
                                 </div>
                             {/each}
                         </ul>
