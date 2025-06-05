@@ -8,17 +8,10 @@ const config = {
         adapter: adapter({
             pages: 'build',
             assets: 'build',
-            fallback: 'index.html',
-            precompress: false,
-            strict: false
-        }),
-        prerender: {
-            entries: []
-        }
+            fallback: 'index.html'
+        })
     }
 };
 
 export default config;
-
-
 

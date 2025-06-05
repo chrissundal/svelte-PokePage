@@ -8,6 +8,6 @@ export const universal = {
   "prerender": false
 };
 export const universal_id = "src/routes/[email]/+page.js";
-export const imports = ["_app/immutable/nodes/4.76g_cvGP.js","_app/immutable/chunks/DNTD3ZPW.js","_app/immutable/chunks/CYgJF_JY.js","_app/immutable/chunks/Ca-V092e.js","_app/immutable/chunks/y302EgEr.js","_app/immutable/chunks/Bhy60SNx.js","_app/immutable/chunks/DEwPd4sG.js","_app/immutable/chunks/DqhUhdnC.js","_app/immutable/chunks/CIWgB2H5.js","_app/immutable/chunks/BzSfW2XT.js","_app/immutable/chunks/D79t_G-E.js"];
+export const imports = ["_app/immutable/nodes/4.fAMmQujs.js","_app/immutable/chunks/DNTD3ZPW.js","_app/immutable/chunks/CYgJF_JY.js","_app/immutable/chunks/Ca-V092e.js","_app/immutable/chunks/y302EgEr.js","_app/immutable/chunks/Bhy60SNx.js","_app/immutable/chunks/DEwPd4sG.js","_app/immutable/chunks/DqhUhdnC.js","_app/immutable/chunks/DT32rdVm.js","_app/immutable/chunks/DVyme8Kt.js","_app/immutable/chunks/D79t_G-E.js"];
 export const stylesheets = [];
 export const fonts = [];
