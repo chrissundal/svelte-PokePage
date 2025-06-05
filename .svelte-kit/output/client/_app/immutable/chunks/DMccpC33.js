@@ -1,1 +1,0 @@
-import{t as i,a as s}from"./DnFZmfct.js";import"./CnjtkWbV.js";import{c as e,r as n}from"./BNAJSufW.js";import{a as d,t as m,b as p}from"./Bi8qZtyK.js";var v=i("<div><!></div>");function b(t,r){var a=v(),o=e(a);d(o,r,"default",{}),n(a),m(1,a,()=>p,()=>({duration:600})),s(t,a)}export{b as R};

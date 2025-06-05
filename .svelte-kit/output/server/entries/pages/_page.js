@@ -1,4 +1,5 @@
 import { e as error } from "../../chunks/index2.js";
+const ssr = false;
 const load = async ({ fetch }) => {
   try {
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=151&offset=0`);
@@ -18,12 +19,13 @@ const load = async ({ fetch }) => {
         };
       })
     );
-    return { pokemons };
+    return { pokemons: pokemons.filter(Boolean) };
   } catch (err) {
     console.error("Uventet feil ved lasting av data:", err);
     throw error(500, "En uventet feil oppstod ved henting av pokémon-data");
   }
 };
 export {
-  load
+  load,
+  ssr
 };

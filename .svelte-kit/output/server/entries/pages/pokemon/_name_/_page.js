@@ -1,4 +1,5 @@
 import { e as error } from "../../../../chunks/index2.js";
+const ssr = false;
 const load = async ({ fetch, params }) => {
   let name = params.name;
   try {
@@ -16,5 +17,6 @@ const load = async ({ fetch, params }) => {
   }
 };
 export {
-  load
+  load,
+  ssr
 };

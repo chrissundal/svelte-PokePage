@@ -1,4 +1,5 @@
 import { e as error } from "../../../chunks/index2.js";
+const ssr = false;
 const load = async ({ fetch }) => {
   const myPokemons = ["pikachu", "ditto"];
   try {
@@ -10,7 +11,7 @@ const load = async ({ fetch }) => {
     let pokemons = [];
     for (const response of responses) {
       if (!response.ok) {
-        throw error(response.status, `Feil ved henting av data: ${response.statusText}`);
+        error(response.status, `Feil ved henting av data: ${response.statusText}`);
       }
       pokemons.push(await response.json());
     }
@@ -24,5 +25,6 @@ const load = async ({ fetch }) => {
   }
 };
 export {
-  load
+  load,
+  ssr
 };

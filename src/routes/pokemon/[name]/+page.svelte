@@ -3,6 +3,7 @@ import {capitalize} from "$lib/capitalize.js";
 import RouteTransition from "$lib/RouteTransition.svelte";
 export let data;
 $: pokemon = data.pokemon;
+$: console.log(data.pokemon)
 
 </script>
 
@@ -47,6 +48,8 @@ $: pokemon = data.pokemon;
                 </div>
             </div>
         </div>
+        {:else}
+        <h1>Loading</h1>
     {/if}
 </RouteTransition>
 

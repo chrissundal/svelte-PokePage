@@ -5,7 +5,7 @@
     import RouteTransition from "$lib/RouteTransition.svelte";
     export let data;
     
-    $: pokemons = [...data.pokemons].sort((a, b) => a.name.localeCompare(b.name))
+    $: pokemons = data.pokemons ? [...data.pokemons].sort((a, b) => a.name.localeCompare(b.name)) : []
     //$: pokemons = [...data.pokemons].sort((a, b) => a.name > b.name ? 1 : -1)
     
     $: if ($session) {

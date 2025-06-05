@@ -6,11 +6,11 @@ function __memo(fn) {
 
 return {
 	appDir: "_app",
-	appPath: "svelte-PokePage/_app",
+	appPath: "_app",
 	assets: new Set(["favicon.png"]),
 	mimeTypes: {".png":"image/png"},
 	_: {
-		client: {start:"_app/immutable/entry/start.B9sroEp5.js",app:"_app/immutable/entry/app.BIKaE_kj.js",imports:["_app/immutable/entry/start.B9sroEp5.js","_app/immutable/chunks/BI9TfUUL.js","_app/immutable/chunks/BNAJSufW.js","_app/immutable/chunks/DA-5XiO0.js","_app/immutable/entry/app.BIKaE_kj.js","_app/immutable/chunks/Dp1pzeXC.js","_app/immutable/chunks/BNAJSufW.js","_app/immutable/chunks/DnFZmfct.js","_app/immutable/chunks/BcbZIc76.js","_app/immutable/chunks/DdBlG2mz.js","_app/immutable/chunks/DA-5XiO0.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.BR612WYN.js",app:"_app/immutable/entry/app.bDy_55gV.js",imports:["_app/immutable/entry/start.BR612WYN.js","_app/immutable/chunks/BzSfW2XT.js","_app/immutable/chunks/y302EgEr.js","_app/immutable/chunks/CYgJF_JY.js","_app/immutable/chunks/D79t_G-E.js","_app/immutable/entry/app.bDy_55gV.js","_app/immutable/chunks/Dp1pzeXC.js","_app/immutable/chunks/y302EgEr.js","_app/immutable/chunks/Ca-V092e.js","_app/immutable/chunks/D9ThWQ4g.js","_app/immutable/chunks/DqhUhdnC.js","_app/immutable/chunks/D79t_G-E.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),

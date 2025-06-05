@@ -35,7 +35,7 @@ function _page($$payload, $$props) {
   var $$store_subs;
   let pokemons;
   let data = $$props["data"];
-  pokemons = [...data.pokemons].sort((a, b) => a.name.localeCompare(b.name));
+  pokemons = data.pokemons ? [...data.pokemons].sort((a, b) => a.name.localeCompare(b.name)) : [];
   if (store_get($$store_subs ??= {}, "$session", session)) {
     loginOpen.set(false);
   }

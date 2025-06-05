@@ -11,9 +11,9 @@ export const nodes = [
 export const server_loads = [];
 
 export const dictionary = {
-		"/": [~2],
-		"/pokemon/[name]": [~3],
-		"/[email]": [~4]
+		"/": [2],
+		"/pokemon/[name]": [3],
+		"/[email]": [4]
 	};
 
 export const hooks = {

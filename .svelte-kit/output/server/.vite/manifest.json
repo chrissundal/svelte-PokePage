@@ -92,6 +92,12 @@
       "_index3.js"
     ]
   },
+  "src/routes/+layout.js": {
+    "file": "entries/pages/_layout.js",
+    "name": "entries/pages/_layout",
+    "src": "src/routes/+layout.js",
+    "isEntry": true
+  },
   "src/routes/+layout.svelte": {
     "file": "entries/pages/_layout.svelte.js",
     "name": "entries/pages/_layout.svelte",
@@ -106,10 +112,10 @@
       "_app/immutable/assets/_layout.D3v2D_tU.css"
     ]
   },
-  "src/routes/+page.server.js": {
-    "file": "entries/pages/_page.server.js",
-    "name": "entries/pages/_page.server",
-    "src": "src/routes/+page.server.js",
+  "src/routes/+page.js": {
+    "file": "entries/pages/_page.js",
+    "name": "entries/pages/_page",
+    "src": "src/routes/+page.js",
     "isEntry": true,
     "imports": [
       "_index2.js"
@@ -127,10 +133,10 @@
       "_RouteTransition.js"
     ]
   },
-  "src/routes/[email]/+page.server.js": {
-    "file": "entries/pages/_email_/_page.server.js",
-    "name": "entries/pages/_email_/_page.server",
-    "src": "src/routes/[email]/+page.server.js",
+  "src/routes/[email]/+page.js": {
+    "file": "entries/pages/_email_/_page.js",
+    "name": "entries/pages/_email_/_page",
+    "src": "src/routes/[email]/+page.js",
     "isEntry": true,
     "imports": [
       "_index2.js"
@@ -147,10 +153,10 @@
       "_RouteTransition.js"
     ]
   },
-  "src/routes/pokemon/[name]/+page.server.js": {
-    "file": "entries/pages/pokemon/_name_/_page.server.js",
-    "name": "entries/pages/pokemon/_name_/_page.server",
-    "src": "src/routes/pokemon/[name]/+page.server.js",
+  "src/routes/pokemon/[name]/+page.js": {
+    "file": "entries/pages/pokemon/_name_/_page.js",
+    "name": "entries/pages/pokemon/_name_/_page",
+    "src": "src/routes/pokemon/[name]/+page.js",
     "isEntry": true,
     "imports": [
       "_index2.js"
